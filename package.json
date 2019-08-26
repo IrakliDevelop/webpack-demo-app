@@ -4,9 +4,9 @@
   "description": "coding along with webpack tutorial on youtube by Colt Steele",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack"
   },
-  "author": "",
+  "author": "Who cares?",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^4.39.2",
