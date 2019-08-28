@@ -7,7 +7,7 @@ const common = require('./webpack.common');
 module.exports = merge(common, {
     mode: 'production',
     output: {
-        filename: 'main.[contentHash].js',
+        filename: '[name].[contentHash].bundle.js',
         path: path.resolve(__dirname, 'dist'),
     },
     plugins: [new CleanWebpackPlugin()], // used to delete old files and recreate dist folder on build
