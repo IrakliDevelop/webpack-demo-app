@@ -12,6 +12,12 @@ module.exports = {
                     'sass-loader', // 1st. Turns sass into css
                 ],
             },
+            {
+                test: /\.html$/,
+                use: [
+                    'html-loader'
+                ]
+            }
         ]
     },
     plugins: [new HtmlWebpackPlugin({
