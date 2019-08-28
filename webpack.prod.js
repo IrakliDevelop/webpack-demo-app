@@ -15,4 +15,14 @@ module.exports = merge(common, {
         new CleanWebpackPlugin(), // used to delete old files and recreate dist folder on build
         new MiniCssExtractPlugin({ filename: '[name].[contentHash].css'})
     ], 
+    module: {
+        rules: [{
+            test: /\.scss$/,
+            use: [
+                MiniCssExtractPlugin.loader, //3rd. Exstract css into files
+                'css-loader', //2nd. Turns css into commonjs
+                'sass-loader', // 1st. Turns sass into css
+            ],
+        }],
+    }
 });
