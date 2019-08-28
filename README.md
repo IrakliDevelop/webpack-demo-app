@@ -1,0 +1,1 @@
+This Project is created by coding along with *Colt Steele's* [Webpack Tutorial on YouTube](https://www.youtube.com/playlist?list=PLblA84xge2_zwxh3XJqy6UVxS60YdusY8)
