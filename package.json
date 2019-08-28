@@ -4,7 +4,8 @@
   "description": "coding along with webpack tutorial on youtube by Colt Steele",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --config webpack.config.js"
+    "start": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "author": "Who cares?",
   "license": "ISC",
